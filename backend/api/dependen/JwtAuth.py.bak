@@ -1,0 +1,38 @@
+# import jwt
+# from datetime import datetime, timedelta
+# from fastapi.security import OAuth2PasswordBearer
+# from api.configs.config import global_settings
+# from jose import JWTError, jwt
+# from fastapi import Depends, HTTPException
+
+
+# oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+
+# JWT_SECRET = global_settings.jwt_secret_key  # 密钥
+# JWT_ALGORITHM = global_settings.jwt_algorithm  # 算法
+# JWT_EXPIRE_MINUTES = global_settings.jwt_expire_minutes
+
+
+# def create_access_token(data: dict, expires_delta: timedelta):
+#     expire = datetime.utcnow() + expires_delta
+#     to_encode = data.copy()
+#     to_encode.update({"exp": expire})
+#     encoded_jwt = jwt.encode(to_encode, JWT_SECRET, algorithm=JWT_ALGORITHM)
+#     return encoded_jwt
+
+
+# # 自定义验证函数
+# async def verify_token(token: str = Depends(oauth2_scheme)):
+#     try:
+#         payload = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
+#         username: str = payload.get("sub")
+#         if username is None:
+#             raise HTTPException(status_code=401, detail="无效的凭据")
+#     except JWTError:
+#         raise HTTPException(status_code=401, detail="无效的凭据")
+
+#     # 在这里添加你的自定义验证逻辑，例如检查用户是否被禁止等等
+#     # 如果验证失败，可以抛出HTTPException并返回相应的HTTP状态码和错误消息
+
+#     return {"token": token, "username": username}

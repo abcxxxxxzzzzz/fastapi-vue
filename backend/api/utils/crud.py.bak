@@ -1,0 +1,209 @@
+
+# https://github.com/testdrivenio/fastapi-crud-async/blob/master/src/app/api/crud.py
+# 推荐: https://github.com/grillazz/fastapi-sqlalchemy-asyncpg/blob/main/app/models/base.py 
+# 推荐：https://github.com/rglsk/fastapi-sqlalchemy-1.4-async/tree/master/app/api
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import update
+from sqlalchemy.future import select
+from api.exts.init_exceptions import APIException
+from sqlalchemy.sql import text,insert
+from sqlalchemy.exc import IntegrityError,SQLAlchemyError
+from api.utils.logs import logger
+
+class CrudService:
+    def __init__(self, db_session: AsyncSession):
+        self.db_session = db_session
+
+    # 列 q: Union[str, None] = None, skip: int = 0, limit: int = 100
+    async def lists(self, model, *args, **kwargs):
+        skip         = kwargs.get('skip',None)            # 默认页 1
+        limit        = kwargs.get('limit',None)          # 默认数量 10
+        q_field      = kwargs.get('q_field',None)      # 搜索的字段
+        q_value      = kwargs.get('q_value',None)      # 搜索的内容
+        filter_field = kwargs.get('filter_field',None) # 过滤的字段
+        filter_value = kwargs.get('filter_value',None) # 过滤的值
+        order_field  = kwargs.get('order_field',None)  # 过滤的字段
+        order_value  = kwargs.get('order_value',None)  # asc || desc
+        time_field   = kwargs.get('time_field',None)   # 过滤的时间字段
+        start_time   = kwargs.get('start_time',None)   # 开始时间
+        end_time     = kwargs.get('end_time',None)     # 结束时间
+        try:
+            # sql = select(model).order_by(model.id.desc()).limit(20)
+            sql = select(model) 
+
+            # 根据字段过滤指定的值
+            if filter_field and filter_value:  
+                sql = sql.where(text(f'''{filter_field} = "{filter_value}"'''))
+
+            # 根据字段模糊搜索的内容
+            if q_field and q_value:        
+                sql = sql.where(text(f'''{q_field} like "%{q_value}%"'''))
+
+            # 根据时间范围筛选
+            if time_field and start_time and end_time:
+                sql = sql.where(text(f'''{time_field} > "{start_time}" and {time_field} < "{end_time}"'''))
+                
+
+            # 根据排序字段升降序排序
+            if order_field and order_value: # 排序
+                sql = sql.order_by(text(f'''{order_field} {order_value}'''))
+
+            # 根据分页
+            if limit and skip:
+                sql = sql.limit(limit).offset((skip - 1)*limit)
+
+            result = await self.db_session.execute(sql)
+            return result.scalars().all()
+
+        except SQLAlchemyError as e:
+            logger.debug(f'ASYNC lists {str(e)}')
+            await self.db_session.rollback()
+            raise APIException(http_state_code=400,msg='Get List Error')
+        finally:
+            await self.db_session.close()
+
+
+    # 查
+    async def show(self, model, id):
+        try:
+            sql = select(model).where(model.id == id)
+            result = await self.db_session.execute(sql)
+            data = result.scalars().first()
+            if not data:
+                raise APIException(http_state_code=400,msg=f'{id} Not Found')
+            return data
+        except SQLAlchemyError as e:
+            logger.error(str(e))
+            await self.db_session.rollback()
+            raise APIException(http_state_code=400,msg='Show Error')
+        finally:
+            await self.db_session.close()
+    # 增
+    async def create(self, model, **data):
+        try:
+            sql = model(**data)
+            self.db_session.add(sql)
+            # try:
+            await self.db_session.commit()
+            await self.db_session.flush()
+            self.db_session.expunge(sql) # 释放添加的数据
+            return sql
+            # except Exception as e:
+            #      await self.db_session.rollback()
+            #      raise APIException(http_state_code=400,msg='添加失败')
+        except IntegrityError as e:
+            logger.error(str(e))
+            raise APIException(http_state_code=400, msg='Already exists')
+        
+        except SQLAlchemyError as e:
+            logger.error(str(e))
+            await self.db_session.rollback()
+            raise APIException(http_state_code=400, msg='Create Error')
+
+        finally:
+            await self.db_session.close()
+
+
+
+    # 改
+    async def update(self, model, id, **data):
+        try:
+            sql = update(model).where(model.id == id).values(**data)
+            # sql.execution_options(synchronize_session="fetch")
+            await self.db_session.execute(sql)
+            await self.db_session.commit()
+            await self.db_session.flush()
+            return await self.info_by_id(model=model, id=id)
+        except IntegrityError as e:
+            logger.error(str(e))
+            raise APIException(http_state_code=400, msg='Already exists')
+
+        except SQLAlchemyError as e:
+            logger.error(str(e))
+            await self.db_session.rollback()
+            raise APIException(http_state_code=400, msg='Update Error')
+
+        finally:
+            await self.db_session.close()
+
+    # 删
+    async def delete(self, model, id):
+        try:
+            sql = await self.db_session.execute(select(model).where(model.id == id))
+            obj = sql.scalars().first()
+            if not obj:
+                raise APIException(http_state_code=400, msg='Not Found')
+            await self.db_session.delete(obj)
+            await self.db_session.commit()
+            await self.db_session.flush()
+        except SQLAlchemyError as e:
+            logger.error(str(e))
+            await self.db_session.rollback()
+            raise APIException(http_state_code=400, msg='Delete Error')
+        finally:
+            await self.db_session.close()
+
+    # 通过 ID 查询
+    async def info_by_id(self, model, id):
+        return await self.show(model,id)
+
+    # async def info_by_username(self, username):
+    #     return await self.user_repo.info(username, 'username')
+
+    # async def info_by_mobile(self, mobile):
+    #     return await self.user_repo.info(mobile, 'mobile')
+
+    # async def infos(self, ids):
+    #     return await self.user_repo.infos(ids)
+
+
+    async def get_many_to_many(self, id, middle, middle_field, right, right_field):
+        try:
+            # 获取多对多中间表所有关联的 IDS
+            bind_orm = await self.db_session.execute(middle.select().where(text(f'{middle_field} = {id}')))
+            bind_ids = [ getattr(b, right_field, None) for b in bind_orm ]
+            bind_data = await self.db_session.execute(select(right).where(id in bind_ids))
+            result = [ i for i in bind_data.scalars().all() if i.status ]
+            return result
+        except SQLAlchemyError as e:
+            logger.error(str(e))
+            await self.db_session.rollback()
+            raise APIException(http_state_code=400, msg='Many Error')
+        finally:
+            await self.db_session.close()
+
+
+    async def many_to_many(self, left, right, middle, id, gid, bind_left, bind_right):
+        '''查询绑定的ID'''
+        await self.show(model=left, id=id)
+
+        for g in gid:
+            await self.show(model=right, id=g)
+
+
+        '''删除原来绑定的ID,不提交'''
+        await self.db_session.execute(middle.delete().where(text(f'{bind_left} = {id}')))
+        # await self.db_session.execute(middle.delete().where(middle.c.user_id==id))
+
+
+        '''添加绑定的ID,不提交'''
+        add_list = []
+        if gid is not None:
+            for g in gid:
+                add_list.append({f'{bind_left}': id,f'{bind_right}':g})
+                
+        await self.db_session.execute(middle.insert(),add_list)
+
+        '''同时提交，执行删除和添加'''
+        try:
+            await self.db_session.commit()
+            await self.db_session.flush()
+        except SQLAlchemyError as e:
+            logger.error(str(e))
+            await self.db_session.rollback()
+            raise APIException(http_state_code=400, msg='Bind Error')
+        finally:
+            await self.db_session.close()
+
+
+

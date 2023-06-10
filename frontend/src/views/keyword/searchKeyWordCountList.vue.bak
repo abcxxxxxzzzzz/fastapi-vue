@@ -1,0 +1,470 @@
+<template>
+
+<el-card shadow="always" class="border-0">
+
+
+    <Search @model="searchForm" @search="getData" @reset="resetSearchFrom">
+
+            
+
+        <SearchItem label="序号">
+            <el-select v-model="searchForm.number"   placeholder="" clearable filterable>
+                <el-option v-for="(item, index) in numbers"
+                    :key="item.number"
+                    :label="item.number"
+                    :value="item.number">
+                </el-option>
+            </el-select>
+        </SearchItem>
+
+        
+        <SearchItem label="已统计时间">
+            <el-select v-model="searchForm.count_at"   placeholder="" clearable filterable>
+                <el-option v-for="(item, index) in count_ats"
+                    :key="item.count_at"
+                    :label="item.count_at"
+                    :value="item.count_at">
+                </el-option>
+            </el-select>
+        </SearchItem>
+
+
+
+
+
+
+            <!-- 添加到自定义插槽 -->
+            <template #show>
+
+
+                <SearchItem label="编号">
+                    <el-select v-model="searchForm.first_name"  placeholder="" clearable filterable>
+                        <el-option v-for="(item, index)  in first_names"
+                            :key="item.first_name"
+                            :label="item.first_name"
+                            :value="item.first_name"
+                            >
+                        </el-option>
+                    </el-select>
+                </SearchItem>
+
+
+                <SearchItem label="类型">
+                    <el-select v-model="searchForm.en"  placeholder="" clearable filterable>
+                        <el-option v-for="(item, index)  in ens"
+                            :key="item.en"
+                            :label="item.en"
+                            :value="item.en"
+                            >
+                        </el-option>
+                    </el-select>
+                </SearchItem>
+
+
+
+                <SearchItem label="自定义时间">
+                        <el-date-picker
+                                    v-model="searchForm.start_end"
+                                    type="daterange"
+                                    :shortcuts="shortcuts"
+                                    range-separator="到"
+                                    start-placeholder="开始时间"
+                                    end-placeholder="结束时间"
+                                    format="YYYY-MM-DD"
+                                    value-format="YYYY-MM-DD"
+                                    :default-time="defaultTime"
+                                    />
+
+                </SearchItem>
+
+            </template>
+
+
+
+
+</Search>
+
+
+
+    <ListHeader :Interval="true"  layout="refresh,download"  @download="exportToExcel"  @refresh="getData">
+
+        <el-button type="primary" size="small" @click="handleHistory"  >
+            <el-icon><TrendCharts /></el-icon> 计算未计算历史数据
+        </el-button>
+
+
+
+    </ListHeader>
+
+    <!-- :span-method="rowspanMethod" -->
+    <vxe-table
+            border
+            show-footer
+            max-height="500"
+            show-overflow
+            ref="xTableRef"
+            
+            :merge-footer-items="demo1.mergeFooterItems"
+            :footer-method="footerMethod"
+            :data="tableData"
+            :loading="loading" 
+            header-align="center" 
+            style="width: 100%; font-size: 1vh; height: 100%;"  
+            class="mytable-scrollbar"
+          >
+          <vxe-column type="checkbox" width="60" align="center"></vxe-column>
+          <vxe-column field="count_number" title="序号" sortable align="center"></vxe-column>
+          <vxe-column field="count_at" title="时间" align="center" sortable></vxe-column>
+          <vxe-column field="count_user" title="编号" align="center" sortable></vxe-column>
+          <vxe-column field="count_total" title="数量" align="center" sortable></vxe-column>
+          <vxe-column field="count_sex" title="SEX" align="center" sortable></vxe-column>
+          <vxe-column field="count_other" title="OTHER" align="center" sortable></vxe-column>
+          <vxe-column field="count_wrong" title="WRNING" align="center" sortable></vxe-column>
+          <vxe-column field="first_at" title="首次提交" align="center" sortable></vxe-column>
+        </vxe-table>
+        
+
+</el-card>
+</template>
+
+
+
+ 
+<script setup>
+
+import { reactive,ref,onMounted } from 'vue'
+import Search from '@/components/Search.vue'
+import SearchItem from '@/components/SearchItem.vue'
+import ListHeader from '@/components/ListHeader.vue';
+import { useInitTable,useInitForm } from '@/composables/useCommon'
+import { dateFormat,toast,getNextDate,getCurrentTime } from '@/utils/tools.js'
+import { exportExcel } from '@/utils/exportExcel'
+
+
+import {
+    getBatchSearchKeyWordCount,
+    getSearchKeyWordCount,
+    getSearchKeyWordGroupByNumber,
+    getSearchKeyWordGroupByUser,
+    getSearchKeyWordGroupByEn,
+    getSearchKeyWordGroupByCountAt
+} from "@/api/searchkeywordcount.js"
+
+const existSearchs = ref([])
+const keywords = ref([])
+const numbers = ref([])
+const is_locks = ref([])
+const contact_users = ref([])
+const first_names = ref([])
+const last_names = ref([])
+const ens = ref([])
+const colors = ref([])
+const count_ats = ref([])
+
+
+const {
+    searchForm,
+    resetSearchFrom,
+    tableData,
+    loading,
+    getData,
+} = useInitTable({
+    searchForm: {
+        asynckeyword: '',
+        keyword: '',
+        skip: 1,
+        limit: 10,
+        number: '',
+        lock: '',
+        contact_user: '',
+        first_name: '',
+        last_name: '',
+        start_end: '',
+        update_start_end: '',
+        paging: 1,
+        en: '',
+        count_at: ''
+    },
+
+    getList: getSearchKeyWordCount,
+
+})
+
+
+
+const demo1 = reactive({
+    // tableData: [
+    //     { id: 10001, count_number: 1, count_at: '2024-04-05', count_user: 'v15', count_total: '100', count_sex: 28, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' },
+    //     { id: 10002, count_number: 1, count_at: '2024-04-06', count_user: 'v15', count_total: '100', count_sex: 22, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' },
+    //     { id: 10003, count_number: 2, count_at: '2024-04-05', count_user: 'v15', count_total: '100', count_sex: 32, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' },
+    //     { id: 10004, count_number: 2, count_at: '2024-04-05', count_user: 'v15', count_total: '100', count_sex: 23, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' },
+    //     { id: 10005, count_number: 3, count_at: '2024-04-05', count_user: 'v15', count_total: '100', count_sex: 30, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' },
+    //     { id: 10006, count_number: 3, count_at: '2024-04-05', count_user: 'v15', count_total: '100', count_sex: 21, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' },
+    //     { id: 10007, count_number: 4, count_at: '2024-04-05', count_user: 'v15', count_total: '100', count_sex: 29, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' },
+    //     { id: 10008, count_number: 4, count_at: '2024-04-05', count_user: 'v15', count_total: '100', count_sex: 35, count_other: 100, count_wrong: 200, first_at: '2024-04-05 00:00:00' }
+    // ],
+
+
+    
+    mergeFooterItems: [
+        // Row 是行的意思. Column 是列的意思
+        // rowspan 表示横跨行(意思是上下合并)，colspan表示横跨列（意思是左右合并）
+        { row: 0, col: 1, rowspan: 0, colspan: 3 },
+    ]
+})
+
+const sumNum = (list, field) => {
+    let count = 0
+    list.forEach(item => {
+        count += Number(item[field])
+    })
+    return count
+}
+
+const footerMethod = ({ columns, data }) => {
+    const footerData = [
+    columns.map((column, _columnIndex) => {
+        if (_columnIndex === 1) {
+        return '总计'
+        }
+        if (['count_total'].includes(column.field)) {
+        return sumNum(data, 'count_total')
+        }
+        if (['count_sex'].includes(column.field)) {
+        return sumNum(data, 'count_sex')
+        }
+        if (['count_other'].includes(column.field)) {
+        return sumNum(data, 'count_other')
+        }
+        if (['count_wrong'].includes(column.field)) {
+        return sumNum(data, 'count_wrong')
+        }
+        return null
+    })
+    ]
+    return footerData
+}
+
+
+// 合并相同单元格
+const rowspanMethod = ({ row, _rowIndex, column, visibleData }) => {
+    const fields = ['count_number']
+    const cellValue = row[column.field]
+    if (cellValue && fields.includes(column.field)) {
+    const prevRow = visibleData[_rowIndex - 1]
+    let nextRow = visibleData[_rowIndex + 1]
+    if (prevRow && prevRow[column.field] === cellValue) {
+        return { rowspan: 0, colspan: 0 }
+    } else {
+        let countRowspan = 1
+        while (nextRow && nextRow[column.field] === cellValue) {
+        nextRow = visibleData[++countRowspan + _rowIndex]
+        }
+        if (countRowspan > 1) {
+        return { rowspan: countRowspan, colspan: 1 }
+        }
+    }
+    }
+}
+
+// 搜索日期选择
+// const keywordDate = ref('')
+// const defaultTime = new Date(2000, 1, 1, 0, 0, 0) // '12:00:00'
+const defaultTime =  ref([
+  new Date(2000, 1, 1, 12, 0, 0),
+  new Date(2000, 2, 1, 8, 0, 0),
+])
+
+const date = new Date()
+const current_day = date.getDate();  // 日
+const current_month = date.getMonth() + 1
+const current_year = date.getFullYear()
+
+
+const shortcuts = [
+    {
+        text: '今天',
+        value: () => {
+            const _startDay = current_year + '-' + current_month + '-' + current_day
+            const startDay = getNextDate(_startDay, 0)
+            return [startDay, startDay]
+        },
+    },
+    {
+        text: '昨天',
+        value: () => {
+            const endDay = current_year + '-' + current_month + '-' + current_day
+            const startDay = getNextDate(endDay, -1)
+            return [startDay, startDay]
+        },
+    },
+    {
+        text: '前天',
+        value: () => {
+            const endDay = current_year + '-' + current_month + '-' + current_day
+            const startDay = getNextDate(endDay, -2)
+            return [startDay, startDay]
+        },
+    },
+    {
+        text: '最近三天',
+        value: () => {
+            const end = new Date()
+            const start = new Date()
+
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 3)
+            return [start, end]
+        },
+    },
+    {
+        text: '最近七天',
+        value: () => {
+            const end = new Date()
+            const start = new Date()
+
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 7)
+            return [start, end]
+        },
+    },
+    {
+        text: '最近一个月',
+        value: () => {
+            const end = new Date()
+            const start = new Date()
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 30)
+            return [start, end]
+        },
+    },
+    {
+        text: '最近三个月',
+        value: () => {
+            const end = new Date()
+            const start = new Date()
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 90)
+            return [start, end]
+        },
+    },
+
+    {
+        text: '最近六个月',
+        value: () => {
+            const end = new Date()
+            const start = new Date()
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 180)
+            return [start, end]
+        },
+    },
+
+]
+
+
+
+
+// 生成历史数据
+const handleHistory = () => {
+    loading.value = true
+    getBatchSearchKeyWordCount().then(res=> {
+        // console.log(res)
+        toast('历史查询任务已提交，请稍后刷新根据条件查看')
+    }).finally(()=> {
+        loading.value = false
+    })
+}
+
+
+
+// 下载当页数据
+const exportToExcel = ()=> {
+    
+    loading.value = true
+
+    let newDate = tableData.value
+    
+    let fields = {
+        count_number: "序号",
+        count_at: "时间",
+        count_user: "编号",
+        count_total: "数量",
+        count_sex: "SEX",
+        count_other: 'OTHER',
+        count_wrong: "WRNING",
+        first_at: "首次提交",
+    };
+
+
+    // let data = JSON.parse(JSON.stringify(this.tableData3));  // 如果直接放置数据不行请加上这句
+
+    exportExcel(newDate, fields, getCurrentTime() + "_count");
+    getData()
+
+    loading.value = false
+}
+
+
+onMounted(()=> {
+
+    setTimeout(() => {
+        getSearchKeyWordGroupByNumber().then(res => {
+            numbers.value = res.numbers
+        })
+
+        getSearchKeyWordGroupByUser().then(res => {
+            first_names.value = res.first_names
+        })
+
+        getSearchKeyWordGroupByEn().then(res => {
+            ens.value = res.ens
+        })
+
+        getSearchKeyWordGroupByCountAt().then(res => {
+            count_ats.value = res.count_ats
+        })
+
+        // getSearchKeyWordGroupBy().then(res=> {
+        //     existSearchs.value = res.existSearchs
+        //     keywords.value = res.keywords
+        //     numbers.value = res.numbers
+        //     is_locks.value = res.is_locks
+        //     contact_users.value = res.contact_users
+        //     first_names.value = res.first_names
+        //     last_names.value = res.last_names
+        //     ens.value = res.ens
+        //     colors.value = res.colors
+            
+        // })
+    }, 500)
+ 
+})
+
+</script>
+
+
+
+<style>
+        /*滚动条整体部分*/
+        .mytable-scrollbar ::-webkit-scrollbar {
+          width: 10px;
+          height: 10px;
+        }
+        /*滚动条的轨道*/
+        .mytable-scrollbar ::-webkit-scrollbar-track {
+          background-color: #FFFFFF;
+        }
+        /*滚动条里面的小方块，能向上向下移动*/
+        .mytable-scrollbar ::-webkit-scrollbar-thumb {
+          background-color: #bfbfbf;
+          border-radius: 5px;
+          border: 1px solid #F1F1F1;
+          box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        }
+        .mytable-scrollbar ::-webkit-scrollbar-thumb:hover {
+          background-color: #A8A8A8;
+        }
+        .mytable-scrollbar ::-webkit-scrollbar-thumb:active {
+          background-color: #787878;
+        }
+        /*边角，即两个滚动条的交汇处*/
+        .mytable-scrollbar ::-webkit-scrollbar-corner {
+          background-color: #FFFFFF;
+        }
+</style>

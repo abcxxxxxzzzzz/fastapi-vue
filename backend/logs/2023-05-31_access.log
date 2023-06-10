@@ -1,0 +1,291 @@
+2023-05-31 15:17:36,709 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:17:37,814 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:17:37,854 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:17:37,855 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:17:37,855 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:17:37,883 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:17:37,884 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:31:28,535 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:31:28,536 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:31:28,536 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:31:28,536 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:31:28,538 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:31:28,538 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fa9f0d97df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fa9f0d97df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:31:29,684 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:31:30,749 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:31:30,789 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:31:30,789 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:31:30,789 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:31:30,811 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:31:30,811 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:31:51,699 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:31:51,700 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:31:51,700 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:31:51,700 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:31:51,700 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:31:51,701 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fd2cef1de20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fd2cef1de20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:31:52,698 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:31:53,753 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:31:53,786 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:31:53,786 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:31:53,786 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:31:53,810 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:31:53,811 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:32:03,584 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:32:03,585 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:32:03,585 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:32:03,586 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:32:03,588 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:32:03,590 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fca26c12e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fca26c12e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:32:04,601 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:32:05,676 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:32:05,726 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:32:05,726 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:32:05,727 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:32:05,755 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:32:05,755 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:32:05,947 - [ MainThread:get_items:94 ] - ERROR - (mysql.connector.errors.DatabaseError) 1267 (HY000): Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[SQL: SELECT admin_keyword.id AS admin_keyword_id, admin_keyword.name AS admin_keyword_name, admin_keyword.type AS admin_keyword_type, admin_keyword.status AS admin_keyword_status, admin_keyword.created_at AS admin_keyword_created_at, admin_keyword.updated_at AS admin_keyword_updated_at, admin_keyword.search_user AS admin_keyword_search_user, admin_keyword.first_name AS admin_keyword_first_name, admin_keyword.last_name AS admin_keyword_last_name, admin_searchkeyword_1.id AS admin_searchkeyword_1_id, admin_searchkeyword_1.number AS admin_searchkeyword_1_number, admin_searchkeyword_1.link AS admin_searchkeyword_1_link, admin_searchkeyword_1.url_website AS admin_searchkeyword_1_url_website, admin_searchkeyword_1.contact AS admin_searchkeyword_1_contact, admin_searchkeyword_1.is_contact AS admin_searchkeyword_1_is_contact, admin_searchkeyword_1.contact_user AS admin_searchkeyword_1_contact_user, admin_searchkeyword_1.color AS admin_searchkeyword_1_color, admin_searchkeyword_1.cn AS admin_searchkeyword_1_cn, admin_searchkeyword_1.en AS admin_searchkeyword_1_en, admin_searchkeyword_1.owner_id AS admin_searchkeyword_1_owner_id, admin_searchkeyword_1.created_at AS admin_searchkeyword_1_created_at, admin_searchkeyword_1.updated_at AS admin_searchkeyword_1_updated_at, admin_searchkeyword_1.first_name AS admin_searchkeyword_1_first_name, admin_searchkeyword_1.last_name AS admin_searchkeyword_1_last_name, admin_searchkeyword_1.description AS admin_searchkeyword_1_description, admin_searchkeyword_1.type AS admin_searchkeyword_1_type 
+FROM admin_keyword LEFT OUTER JOIN admin_searchkeyword AS admin_searchkeyword_1 ON admin_keyword.id = admin_searchkeyword_1.owner_id 
+WHERE admin_keyword.name IN (%(name_1_1)s) AND admin_keyword.type = %(type_1)s ORDER BY admin_keyword.id DESC, admin_searchkeyword_1.id]
+[parameters: {'type_1': '百度', 'name_1_1': '国产一级𠂉片内射视频播'}]
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-05-31 15:35:12,766 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:35:12,766 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:35:12,766 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:35:12,766 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:35:12,767 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:35:12,767 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f36b7527d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f36b7527d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:35:13,761 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:35:14,836 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:35:14,876 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:35:14,876 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:35:14,876 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:35:14,898 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:35:14,898 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:35:17,496 - [ MainThread:get_items:94 ] - ERROR - (mysql.connector.errors.DatabaseError) 1267 (HY000): Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[SQL: SELECT admin_keyword.id AS admin_keyword_id, admin_keyword.name AS admin_keyword_name, admin_keyword.type AS admin_keyword_type, admin_keyword.status AS admin_keyword_status, admin_keyword.created_at AS admin_keyword_created_at, admin_keyword.updated_at AS admin_keyword_updated_at, admin_keyword.search_user AS admin_keyword_search_user, admin_keyword.first_name AS admin_keyword_first_name, admin_keyword.last_name AS admin_keyword_last_name, admin_searchkeyword_1.id AS admin_searchkeyword_1_id, admin_searchkeyword_1.number AS admin_searchkeyword_1_number, admin_searchkeyword_1.link AS admin_searchkeyword_1_link, admin_searchkeyword_1.url_website AS admin_searchkeyword_1_url_website, admin_searchkeyword_1.contact AS admin_searchkeyword_1_contact, admin_searchkeyword_1.is_contact AS admin_searchkeyword_1_is_contact, admin_searchkeyword_1.contact_user AS admin_searchkeyword_1_contact_user, admin_searchkeyword_1.color AS admin_searchkeyword_1_color, admin_searchkeyword_1.cn AS admin_searchkeyword_1_cn, admin_searchkeyword_1.en AS admin_searchkeyword_1_en, admin_searchkeyword_1.owner_id AS admin_searchkeyword_1_owner_id, admin_searchkeyword_1.created_at AS admin_searchkeyword_1_created_at, admin_searchkeyword_1.updated_at AS admin_searchkeyword_1_updated_at, admin_searchkeyword_1.first_name AS admin_searchkeyword_1_first_name, admin_searchkeyword_1.last_name AS admin_searchkeyword_1_last_name, admin_searchkeyword_1.description AS admin_searchkeyword_1_description, admin_searchkeyword_1.type AS admin_searchkeyword_1_type 
+FROM admin_keyword LEFT OUTER JOIN admin_searchkeyword AS admin_searchkeyword_1 ON admin_keyword.id = admin_searchkeyword_1.owner_id 
+WHERE admin_keyword.name IN (%(name_1_1)s) AND admin_keyword.type = %(type_1)s ORDER BY admin_keyword.id DESC, admin_searchkeyword_1.id]
+[parameters: {'type_1': '百度', 'name_1_1': '国产一级𠂉片内射视频播'}]
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-05-31 15:36:00,256 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:36:00,257 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:36:00,257 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:36:00,257 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:36:00,258 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:36:00,258 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fda1faf6d60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fda1faf6d60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:36:01,249 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:36:02,323 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:36:02,363 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:36:02,363 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:36:02,363 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:36:02,386 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:36:02,386 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:36:02,588 - [ MainThread:get_items:94 ] - ERROR - (mysql.connector.errors.DatabaseError) 1267 (HY000): Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[SQL: SELECT admin_keyword.id AS admin_keyword_id, admin_keyword.name AS admin_keyword_name, admin_keyword.type AS admin_keyword_type, admin_keyword.status AS admin_keyword_status, admin_keyword.created_at AS admin_keyword_created_at, admin_keyword.updated_at AS admin_keyword_updated_at, admin_keyword.search_user AS admin_keyword_search_user, admin_keyword.first_name AS admin_keyword_first_name, admin_keyword.last_name AS admin_keyword_last_name, admin_searchkeyword_1.id AS admin_searchkeyword_1_id, admin_searchkeyword_1.number AS admin_searchkeyword_1_number, admin_searchkeyword_1.link AS admin_searchkeyword_1_link, admin_searchkeyword_1.url_website AS admin_searchkeyword_1_url_website, admin_searchkeyword_1.contact AS admin_searchkeyword_1_contact, admin_searchkeyword_1.is_contact AS admin_searchkeyword_1_is_contact, admin_searchkeyword_1.contact_user AS admin_searchkeyword_1_contact_user, admin_searchkeyword_1.color AS admin_searchkeyword_1_color, admin_searchkeyword_1.cn AS admin_searchkeyword_1_cn, admin_searchkeyword_1.en AS admin_searchkeyword_1_en, admin_searchkeyword_1.owner_id AS admin_searchkeyword_1_owner_id, admin_searchkeyword_1.created_at AS admin_searchkeyword_1_created_at, admin_searchkeyword_1.updated_at AS admin_searchkeyword_1_updated_at, admin_searchkeyword_1.first_name AS admin_searchkeyword_1_first_name, admin_searchkeyword_1.last_name AS admin_searchkeyword_1_last_name, admin_searchkeyword_1.description AS admin_searchkeyword_1_description, admin_searchkeyword_1.type AS admin_searchkeyword_1_type 
+FROM admin_keyword LEFT OUTER JOIN admin_searchkeyword AS admin_searchkeyword_1 ON admin_keyword.id = admin_searchkeyword_1.owner_id 
+WHERE admin_keyword.name IN (%(name_1_1)s) AND admin_keyword.type = %(type_1)s ORDER BY admin_keyword.id DESC, admin_searchkeyword_1.id]
+[parameters: {'type_1': '百度', 'name_1_1': '国产一级𠂉片内射视频播'}]
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-05-31 15:36:59,906 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:36:59,907 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:36:59,907 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:36:59,908 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:36:59,909 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:36:59,910 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7faa30fe5e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7faa30fe5e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:37:00,909 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:37:02,012 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:02,045 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:37:02,045 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:37:02,046 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:02,070 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:37:02,070 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:37:15,027 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:37:15,028 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:37:15,028 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:37:15,028 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:37:15,029 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:37:15,030 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f409fd22e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f409fd22e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:37:16,040 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:37:17,118 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:17,154 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:37:17,154 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:37:17,154 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:17,185 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:37:17,185 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:37:17,386 - [ MainThread:get_items:94 ] - ERROR - (mysql.connector.errors.DatabaseError) 1267 (HY000): Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[SQL: SELECT admin_keyword.id AS admin_keyword_id, admin_keyword.name AS admin_keyword_name, admin_keyword.type AS admin_keyword_type, admin_keyword.status AS admin_keyword_status, admin_keyword.created_at AS admin_keyword_created_at, admin_keyword.updated_at AS admin_keyword_updated_at, admin_keyword.search_user AS admin_keyword_search_user, admin_keyword.first_name AS admin_keyword_first_name, admin_keyword.last_name AS admin_keyword_last_name, admin_searchkeyword_1.id AS admin_searchkeyword_1_id, admin_searchkeyword_1.number AS admin_searchkeyword_1_number, admin_searchkeyword_1.link AS admin_searchkeyword_1_link, admin_searchkeyword_1.url_website AS admin_searchkeyword_1_url_website, admin_searchkeyword_1.contact AS admin_searchkeyword_1_contact, admin_searchkeyword_1.is_contact AS admin_searchkeyword_1_is_contact, admin_searchkeyword_1.contact_user AS admin_searchkeyword_1_contact_user, admin_searchkeyword_1.color AS admin_searchkeyword_1_color, admin_searchkeyword_1.cn AS admin_searchkeyword_1_cn, admin_searchkeyword_1.en AS admin_searchkeyword_1_en, admin_searchkeyword_1.owner_id AS admin_searchkeyword_1_owner_id, admin_searchkeyword_1.created_at AS admin_searchkeyword_1_created_at, admin_searchkeyword_1.updated_at AS admin_searchkeyword_1_updated_at, admin_searchkeyword_1.first_name AS admin_searchkeyword_1_first_name, admin_searchkeyword_1.last_name AS admin_searchkeyword_1_last_name, admin_searchkeyword_1.description AS admin_searchkeyword_1_description, admin_searchkeyword_1.type AS admin_searchkeyword_1_type 
+FROM admin_keyword LEFT OUTER JOIN admin_searchkeyword AS admin_searchkeyword_1 ON admin_keyword.id = admin_searchkeyword_1.owner_id 
+WHERE admin_keyword.name IN (%(name_1_1)s) AND admin_keyword.type = %(type_1)s ORDER BY admin_keyword.id DESC, admin_searchkeyword_1.id]
+[parameters: {'type_1': '百度', 'name_1_1': '国产一级𠂉片内射视频播'}]
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-05-31 15:37:33,437 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:37:33,437 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:37:33,438 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:37:33,438 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:37:33,439 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:37:33,440 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f7d2217be20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f7d2217be20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:37:34,430 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:37:35,490 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:35,529 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:37:35,529 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:37:35,529 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:35,557 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:37:35,557 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:37:35,749 - [ MainThread:get_items:94 ] - ERROR - (mysql.connector.errors.DatabaseError) 1267 (HY000): Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[SQL: SELECT admin_keyword.id AS admin_keyword_id, admin_keyword.name AS admin_keyword_name, admin_keyword.type AS admin_keyword_type, admin_keyword.status AS admin_keyword_status, admin_keyword.created_at AS admin_keyword_created_at, admin_keyword.updated_at AS admin_keyword_updated_at, admin_keyword.search_user AS admin_keyword_search_user, admin_keyword.first_name AS admin_keyword_first_name, admin_keyword.last_name AS admin_keyword_last_name, admin_searchkeyword_1.id AS admin_searchkeyword_1_id, admin_searchkeyword_1.number AS admin_searchkeyword_1_number, admin_searchkeyword_1.link AS admin_searchkeyword_1_link, admin_searchkeyword_1.url_website AS admin_searchkeyword_1_url_website, admin_searchkeyword_1.contact AS admin_searchkeyword_1_contact, admin_searchkeyword_1.is_contact AS admin_searchkeyword_1_is_contact, admin_searchkeyword_1.contact_user AS admin_searchkeyword_1_contact_user, admin_searchkeyword_1.color AS admin_searchkeyword_1_color, admin_searchkeyword_1.cn AS admin_searchkeyword_1_cn, admin_searchkeyword_1.en AS admin_searchkeyword_1_en, admin_searchkeyword_1.owner_id AS admin_searchkeyword_1_owner_id, admin_searchkeyword_1.created_at AS admin_searchkeyword_1_created_at, admin_searchkeyword_1.updated_at AS admin_searchkeyword_1_updated_at, admin_searchkeyword_1.first_name AS admin_searchkeyword_1_first_name, admin_searchkeyword_1.last_name AS admin_searchkeyword_1_last_name, admin_searchkeyword_1.description AS admin_searchkeyword_1_description, admin_searchkeyword_1.type AS admin_searchkeyword_1_type 
+FROM admin_keyword LEFT OUTER JOIN admin_searchkeyword AS admin_searchkeyword_1 ON admin_keyword.id = admin_searchkeyword_1.owner_id 
+WHERE admin_keyword.name IN (%(name_1_1)s) AND admin_keyword.type = %(type_1)s ORDER BY admin_keyword.id DESC, admin_searchkeyword_1.id]
+[parameters: {'type_1': '百度', 'name_1_1': '国产一级𠂉片内射视频播'}]
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-05-31 15:37:47,687 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:37:47,687 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:37:47,687 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:37:47,687 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:37:47,688 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:37:47,689 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fad2b477d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fad2b477d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:37:48,686 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:37:49,767 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:49,807 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:37:49,808 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:37:49,808 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:37:49,832 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:37:49,833 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:38:10,812 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:38:10,812 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:38:10,813 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:38:10,813 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:38:10,815 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:38:10,815 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f04ef267df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f04ef267df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:38:11,839 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:38:12,917 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:38:12,954 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:38:12,955 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:38:12,955 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:38:12,980 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:38:12,981 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:41:52,678 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:41:52,680 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:41:52,680 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-05-31 15:41:52,681 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-05-31 15:41:52,683 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-05-31 15:41:52,683 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7ffa7c625df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7ffa7c625df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-05-31 15:41:53,687 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-05-31 15:41:54,779 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:41:54,827 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-05-31 15:41:54,828 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-05-31 15:41:54,828 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-05-31 15:41:54,857 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-05-31 15:41:54,857 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-05-31 15:43:56,281 - [ MainThread:get_items:94 ] - ERROR - (mysql.connector.errors.DatabaseError) 1267 (HY000): Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[SQL: SELECT admin_keyword.id AS admin_keyword_id, admin_keyword.name AS admin_keyword_name, admin_keyword.type AS admin_keyword_type, admin_keyword.status AS admin_keyword_status, admin_keyword.created_at AS admin_keyword_created_at, admin_keyword.updated_at AS admin_keyword_updated_at, admin_keyword.search_user AS admin_keyword_search_user, admin_keyword.first_name AS admin_keyword_first_name, admin_keyword.last_name AS admin_keyword_last_name, admin_searchkeyword_1.id AS admin_searchkeyword_1_id, admin_searchkeyword_1.number AS admin_searchkeyword_1_number, admin_searchkeyword_1.link AS admin_searchkeyword_1_link, admin_searchkeyword_1.url_website AS admin_searchkeyword_1_url_website, admin_searchkeyword_1.contact AS admin_searchkeyword_1_contact, admin_searchkeyword_1.is_contact AS admin_searchkeyword_1_is_contact, admin_searchkeyword_1.contact_user AS admin_searchkeyword_1_contact_user, admin_searchkeyword_1.color AS admin_searchkeyword_1_color, admin_searchkeyword_1.cn AS admin_searchkeyword_1_cn, admin_searchkeyword_1.en AS admin_searchkeyword_1_en, admin_searchkeyword_1.owner_id AS admin_searchkeyword_1_owner_id, admin_searchkeyword_1.created_at AS admin_searchkeyword_1_created_at, admin_searchkeyword_1.updated_at AS admin_searchkeyword_1_updated_at, admin_searchkeyword_1.first_name AS admin_searchkeyword_1_first_name, admin_searchkeyword_1.last_name AS admin_searchkeyword_1_last_name, admin_searchkeyword_1.description AS admin_searchkeyword_1_description, admin_searchkeyword_1.type AS admin_searchkeyword_1_type 
+FROM admin_keyword LEFT OUTER JOIN admin_searchkeyword AS admin_searchkeyword_1 ON admin_keyword.id = admin_searchkeyword_1.owner_id 
+WHERE admin_keyword.name IN (%(name_1_1)s) AND admin_keyword.type = %(type_1)s ORDER BY admin_keyword.id DESC, admin_searchkeyword_1.id]
+[parameters: {'type_1': '百度', 'name_1_1': '国产一级𠂉片内射视频播'}]
+(Background on this error at: https://sqlalche.me/e/14/4xp6)
+2023-05-31 15:44:11,990 - [ MainThread:get_items:94 ] - ERROR - (mysql.connector.errors.DatabaseError) 1267 (HY000): Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[SQL: SELECT admin_keyword.id AS admin_keyword_id, admin_keyword.name AS admin_keyword_name, admin_keyword.type AS admin_keyword_type, admin_keyword.status AS admin_keyword_status, admin_keyword.created_at AS admin_keyword_created_at, admin_keyword.updated_at AS admin_keyword_updated_at, admin_keyword.search_user AS admin_keyword_search_user, admin_keyword.first_name AS admin_keyword_first_name, admin_keyword.last_name AS admin_keyword_last_name, admin_searchkeyword_1.id AS admin_searchkeyword_1_id, admin_searchkeyword_1.number AS admin_searchkeyword_1_number, admin_searchkeyword_1.link AS admin_searchkeyword_1_link, admin_searchkeyword_1.url_website AS admin_searchkeyword_1_url_website, admin_searchkeyword_1.contact AS admin_searchkeyword_1_contact, admin_searchkeyword_1.is_contact AS admin_searchkeyword_1_is_contact, admin_searchkeyword_1.contact_user AS admin_searchkeyword_1_contact_user, admin_searchkeyword_1.color AS admin_searchkeyword_1_color, admin_searchkeyword_1.cn AS admin_searchkeyword_1_cn, admin_searchkeyword_1.en AS admin_searchkeyword_1_en, admin_searchkeyword_1.owner_id AS admin_searchkeyword_1_owner_id, admin_searchkeyword_1.created_at AS admin_searchkeyword_1_created_at, admin_searchkeyword_1.updated_at AS admin_searchkeyword_1_updated_at, admin_searchkeyword_1.first_name AS admin_searchkeyword_1_first_name, admin_searchkeyword_1.last_name AS admin_searchkeyword_1_last_name, admin_searchkeyword_1.description AS admin_searchkeyword_1_description, admin_searchkeyword_1.type AS admin_searchkeyword_1_type 
+FROM admin_keyword LEFT OUTER JOIN admin_searchkeyword AS admin_searchkeyword_1 ON admin_keyword.id = admin_searchkeyword_1.owner_id 
+WHERE admin_keyword.name IN (%(name_1_1)s) AND admin_keyword.type = %(type_1)s ORDER BY admin_keyword.id DESC, admin_searchkeyword_1.id]
+[parameters: {'type_1': '百度', 'name_1_1': '国产一级𠂉片内射视频播'}]
+(Background on this error at: https://sqlalche.me/e/14/4xp6)

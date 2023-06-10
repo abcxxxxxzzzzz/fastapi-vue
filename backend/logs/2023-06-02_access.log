@@ -1,0 +1,1454 @@
+2023-06-02 11:47:56,298 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 11:47:58,134 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 11:47:59,196 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 11:47:59,292 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 11:47:59,292 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 11:47:59,292 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 11:47:59,321 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 11:47:59,321 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 11:55:43,178 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 11:55:43,178 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 11:55:43,179 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 11:55:43,179 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 11:55:43,180 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 11:55:43,181 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fb3a2933e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fb3a2933e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 11:55:44,212 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 11:55:45,282 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 11:55:45,319 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 11:55:45,319 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 11:55:45,319 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 11:55:45,345 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 11:55:45,345 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 11:59:59,194 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 11:59:59,194 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 11:59:59,195 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 11:59:59,195 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 11:59:59,196 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 11:59:59,197 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fcb50525e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fcb50525e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 12:00:00,156 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 12:00:01,203 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:00:01,234 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 12:00:01,234 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 12:00:01,234 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:00:01,258 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 12:00:01,258 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 12:05:35,752 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:05:35,753 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:05:35,753 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:05:35,754 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:05:35,755 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 12:05:35,755 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fc1466a3df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fc1466a3df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 12:05:36,744 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 12:05:37,805 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:05:37,835 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 12:05:37,836 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 12:05:37,836 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:05:37,859 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 12:05:37,859 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 12:05:59,955 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:05:59,955 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:05:59,956 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:05:59,956 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:05:59,957 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 12:05:59,958 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fd3d1719d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fd3d1719d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 12:06:00,931 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 12:06:01,983 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:06:02,012 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 12:06:02,013 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 12:06:02,013 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:06:02,035 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 12:06:02,035 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 12:55:05,360 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:55:05,362 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:55:05,363 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:55:05,364 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:55:05,368 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 12:55:05,369 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7faed672edf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7faed672edf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 12:55:06,588 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 12:55:07,624 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:55:07,663 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 12:55:07,663 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 12:55:07,663 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:55:07,692 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 12:55:07,692 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 12:56:13,655 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:56:13,656 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:56:13,656 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 12:56:13,656 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 12:56:13,656 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 12:56:13,657 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f5ead64fdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f5ead64fdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 12:56:14,615 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 12:56:15,700 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:56:15,742 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 12:56:15,742 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 12:56:15,742 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 12:56:15,764 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 12:56:15,764 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:05:31,148 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:05:31,149 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:05:31,150 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:05:31,150 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:05:31,152 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:05:31,153 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f0805786dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f0805786dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:05:33,870 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:05:34,915 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:05:34,951 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:05:34,951 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:05:34,951 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:05:34,982 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:05:34,982 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:05:51,850 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:05:51,851 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:05:51,851 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:05:51,852 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:05:51,853 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:05:51,853 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f5ab40abdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f5ab40abdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:05:52,845 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:05:53,880 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:05:53,920 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:05:53,921 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:05:53,921 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:05:53,947 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:05:53,947 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:08:58,507 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:08:58,519 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:08:58,530 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:08:58,541 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:08:58,656 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:08:58,662 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f9ff5358dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f9ff5358dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:09:05,002 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:09:06,626 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:09:07,678 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:09:07,713 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:09:07,713 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:09:07,713 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:09:07,736 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:09:07,736 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:09:23,066 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:09:23,066 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:09:23,067 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:09:23,067 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:09:23,068 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:09:23,069 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f00ee6b3df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f00ee6b3df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:09:24,136 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:09:25,217 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:09:25,253 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:09:25,253 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:09:25,253 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:09:25,285 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:09:25,285 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:14:50,768 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:14:50,768 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:14:50,768 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:14:50,769 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:14:50,770 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:14:50,770 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f6e9bbb6dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f6e9bbb6dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:14:52,231 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:14:53,318 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:14:53,352 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:14:53,352 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:14:53,352 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:14:53,376 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:14:53,377 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:36:06,733 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:36:06,735 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:36:06,735 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:36:06,735 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:36:06,737 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:36:06,737 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fdca8403d60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fdca8403d60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:36:07,815 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:36:08,948 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:36:08,981 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:36:08,981 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:36:08,981 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:36:09,015 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:36:09,015 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:42:16,827 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:42:16,828 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:42:16,828 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:42:16,829 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:42:16,831 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:42:16,832 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f2059f0edc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f2059f0edc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:42:17,824 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:42:18,872 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:42:18,911 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:42:18,911 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:42:18,911 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:42:18,937 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:42:18,937 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:42:27,477 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:42:27,477 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:42:27,477 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:42:27,478 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:42:27,479 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:42:27,479 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fcc2c376e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fcc2c376e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:42:28,428 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:42:29,475 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:42:29,517 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:42:29,517 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:42:29,517 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:42:29,544 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:42:29,545 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:42:33,966 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:42:33,967 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:42:33,967 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:42:33,967 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:42:33,968 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:42:33,969 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f2176c34dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f2176c34dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:42:34,922 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:42:35,974 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:42:36,010 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:42:36,010 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:42:36,011 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:42:36,041 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:42:36,041 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:44:12,342 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:44:12,342 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:44:12,342 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:44:12,343 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:44:12,344 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:44:12,344 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fe701dc5e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fe701dc5e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:44:13,309 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:44:14,349 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:44:14,388 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:44:14,388 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:44:14,389 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:44:14,419 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:44:14,420 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:44:48,166 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:44:48,167 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:44:48,167 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:44:48,167 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:44:48,169 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:44:48,169 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f0f88ac2dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f0f88ac2dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:44:49,109 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:44:50,150 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:44:50,183 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:44:50,184 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:44:50,184 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:44:50,211 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:44:50,211 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:44:56,040 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:44:56,040 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:44:56,041 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:44:56,041 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:44:56,042 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:44:56,042 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f5adbc48dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f5adbc48dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:44:56,980 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:44:58,014 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:44:58,050 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:44:58,050 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:44:58,050 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:44:58,082 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:44:58,083 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:45:17,568 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:45:17,568 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:45:17,569 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:45:17,569 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:45:17,570 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:45:17,571 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f98efb0cdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f98efb0cdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:45:18,522 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:45:19,566 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:45:19,606 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:45:19,606 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:45:19,607 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:45:19,637 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:45:19,637 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:47:39,320 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:47:39,320 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:47:39,321 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:47:39,321 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:47:39,322 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:47:39,323 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f015ca2fd90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f015ca2fd90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:47:40,316 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:47:41,416 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:47:41,453 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:47:41,453 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:47:41,453 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:47:41,488 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:47:41,488 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:47:58,446 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:47:58,446 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:47:58,446 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:47:58,447 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:47:58,447 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:47:58,447 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f694fedfdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f694fedfdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:47:59,437 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:48:00,473 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:48:00,509 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:48:00,510 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:48:00,510 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:48:00,539 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:48:00,539 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:51:39,785 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:51:39,785 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:51:39,786 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:51:39,786 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:51:39,787 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:51:39,788 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fcb8b4a1df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fcb8b4a1df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:51:40,893 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:51:41,939 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:51:41,974 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:51:41,974 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:51:41,974 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:51:42,005 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:51:42,005 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:52:03,804 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:52:03,805 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:52:03,805 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:52:03,805 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:52:03,805 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:52:03,806 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f6871f2fd90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f6871f2fd90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:52:04,833 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:52:05,871 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:52:05,915 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:52:05,915 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:52:05,915 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:52:05,937 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:52:05,937 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:52:23,010 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:52:23,010 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:52:23,011 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:52:23,011 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:52:23,011 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:52:23,012 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f321573edf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f321573edf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:52:24,025 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:52:25,103 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:52:25,137 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:52:25,138 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:52:25,138 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:52:25,159 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:52:25,159 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 13:55:25,358 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:55:25,360 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:55:25,360 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 13:55:25,361 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 13:55:25,363 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 13:55:25,364 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f1ba8170e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f1ba8170e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 13:55:26,476 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 13:55:27,523 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:55:27,563 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 13:55:27,564 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 13:55:27,564 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 13:55:27,594 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 13:55:27,595 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:00:47,598 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:00:47,599 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:00:47,599 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:00:47,600 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:00:47,601 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:00:47,602 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f7e905acdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f7e905acdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:00:48,581 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:00:49,690 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:00:49,728 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:00:49,728 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:00:49,729 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:00:49,758 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:00:49,758 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:01:11,434 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:11,435 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:11,435 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:11,435 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:11,437 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:01:11,437 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f6404bb3e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f6404bb3e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:01:12,462 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:01:13,509 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:13,548 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:01:13,549 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:01:13,549 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:13,587 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:01:13,587 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:01:17,909 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:17,909 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:17,909 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:17,910 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:17,911 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:01:17,912 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f94400f7d00>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f94400f7d00>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:01:18,857 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:01:19,911 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:19,946 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:01:19,946 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:01:19,946 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:19,978 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:01:19,978 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:01:20,987 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:20,988 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:20,989 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:20,990 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:20,993 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:01:20,996 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fd9ab78bdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fd9ab78bdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:01:22,030 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:01:23,078 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:23,109 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:01:23,109 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:01:23,110 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:23,144 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:01:23,144 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:01:40,923 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:40,923 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:40,924 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:01:40,924 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:01:40,926 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:01:40,926 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f43c270adf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f43c270adf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:01:41,864 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:01:42,921 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:42,951 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:01:42,951 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:01:42,951 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:01:42,978 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:01:42,978 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:03:27,438 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:03:27,439 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:03:27,439 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:03:27,440 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:03:27,442 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:03:27,443 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f94cc4b7dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f94cc4b7dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:03:28,554 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:03:29,592 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:03:29,626 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:03:29,626 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:03:29,626 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:03:29,648 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:03:29,648 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:03:53,760 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:03:53,760 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:03:53,761 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:03:53,761 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:03:53,763 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:03:53,764 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fdfd2e29d60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fdfd2e29d60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:03:54,753 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:03:55,798 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:03:55,838 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:03:55,838 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:03:55,838 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:03:55,872 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:03:55,872 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:05:26,660 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:05:26,661 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:05:26,661 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:05:26,661 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:05:26,662 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:05:26,662 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fea88448d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fea88448d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:05:27,598 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:05:28,636 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:05:28,677 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:05:28,678 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:05:28,678 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:05:28,705 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:05:28,705 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:07:09,928 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:07:09,928 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:07:09,929 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:07:09,929 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:07:09,931 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:07:09,932 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fd514468dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fd514468dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:07:10,928 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:07:11,979 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:07:12,026 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:07:12,026 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:07:12,026 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:07:12,061 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:07:12,061 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:09:15,950 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:09:15,950 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:09:15,951 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:09:15,951 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:09:15,952 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:09:15,953 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fc893d8ad90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fc893d8ad90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:09:16,949 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:09:18,003 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:09:18,038 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:09:18,038 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:09:18,038 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:09:18,073 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:09:18,073 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:09:20,787 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:09:20,787 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:09:20,787 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:09:20,787 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:09:20,788 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:09:20,788 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f1812b29dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f1812b29dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:09:21,782 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:09:22,850 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:09:22,879 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:09:22,879 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:09:22,879 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:09:22,914 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:09:22,915 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:10:09,285 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:10:09,285 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:10:09,286 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:10:09,286 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:10:09,288 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:10:09,289 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fdfae2cfd60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fdfae2cfd60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:10:10,316 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:10:11,409 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:10:11,439 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:10:11,439 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:10:11,439 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:10:11,461 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:10:11,461 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:10:14,876 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:10:14,876 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:10:14,876 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:10:14,877 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:10:14,877 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:10:14,878 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f6c88eeee20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f6c88eeee20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:10:15,927 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:10:16,973 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:10:17,010 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:10:17,010 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:10:17,010 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:10:17,046 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:10:17,046 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:10:34,122 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:10:34,122 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:10:34,122 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:10:34,123 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:10:34,123 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:10:34,123 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f38522efd00>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f38522efd00>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:10:35,072 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:10:36,116 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:10:36,149 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:10:36,149 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:10:36,149 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:10:36,176 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:10:36,176 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:20:05,144 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:20:05,145 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:20:05,145 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:20:05,145 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:20:05,147 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:20:05,147 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f5fb6617df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f5fb6617df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:20:06,164 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:20:07,210 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:20:07,246 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:20:07,246 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:20:07,246 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:20:07,267 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:20:07,267 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:20:13,091 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:20:13,092 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:20:13,092 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:20:13,092 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:20:13,093 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:20:13,093 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f3068d60dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f3068d60dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:20:14,037 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:20:15,087 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:20:15,129 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:20:15,129 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:20:15,129 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:20:15,162 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:20:15,162 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:45:57,836 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:45:57,837 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:45:57,837 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:45:57,837 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:45:57,839 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:45:57,840 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f40ff4c5e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f40ff4c5e20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:45:59,025 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:46:00,141 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:46:00,172 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:46:00,172 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:46:00,172 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:46:00,194 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:46:00,195 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:46:00,522 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:46:00,523 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:46:00,523 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:46:00,523 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:46:00,525 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:46:00,525 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f86f7120d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f86f7120d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:46:01,601 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:46:02,663 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:46:02,705 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:46:02,705 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:46:02,705 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:46:02,737 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:46:02,737 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:46:51,213 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:46:51,214 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:46:51,215 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:46:51,215 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:46:51,216 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:46:51,217 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f60f51a3dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f60f51a3dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:46:52,323 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:46:53,394 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:46:53,424 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:46:53,424 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:46:53,424 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:46:53,448 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:46:53,448 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:47:22,747 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:47:22,747 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:47:22,747 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:47:22,747 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:47:22,749 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:47:22,749 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f2bd1f7ddf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f2bd1f7ddf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:47:23,792 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:47:24,842 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:47:24,881 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:47:24,881 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:47:24,881 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:47:24,913 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:47:24,913 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:54:17,816 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:54:17,817 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:54:17,817 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:54:17,817 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:54:17,819 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:54:17,819 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f652a01ddc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f652a01ddc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:54:25,016 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:54:26,660 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:54:27,760 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:54:27,789 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:54:27,790 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:54:27,790 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:54:27,816 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:54:27,816 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:54:58,515 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:54:58,515 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:54:58,516 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:54:58,516 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:54:58,517 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:54:58,518 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f62dd9fbdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f62dd9fbdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:54:59,469 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:55:00,521 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:55:00,559 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:55:00,559 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:55:00,559 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:55:00,585 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:55:00,585 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 14:55:52,844 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:55:52,845 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:55:52,845 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 14:55:52,845 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 14:55:52,846 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 14:55:52,847 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7eff4baa4df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7eff4baa4df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 14:55:53,882 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 14:55:54,941 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:55:54,977 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 14:55:54,977 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 14:55:54,977 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 14:55:55,000 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 14:55:55,001 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:04:48,513 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:04:48,514 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:04:48,514 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:04:48,514 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:04:48,515 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:04:48,516 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f7ecc20cdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f7ecc20cdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:04:49,538 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:04:50,614 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:04:50,649 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:04:50,649 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:04:50,649 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:04:50,678 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:04:50,678 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:05:49,623 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:05:49,624 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:05:49,625 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:05:49,625 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:05:49,626 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:05:49,627 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fe96afc7dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fe96afc7dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:05:50,741 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:05:51,816 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:05:51,847 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:05:51,847 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:05:51,848 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:05:51,873 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:05:51,873 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:06:53,643 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:06:53,643 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:06:53,644 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:06:53,644 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:06:53,645 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:06:53,646 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f54f76e4d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f54f76e4d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:06:54,600 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:06:55,654 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:06:55,696 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:06:55,696 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:06:55,696 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:06:55,723 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:06:55,723 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:11:31,164 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:11:31,165 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:11:31,165 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:11:31,165 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:11:31,166 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:11:31,166 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f7d4540fdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f7d4540fdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:11:33,056 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:11:34,114 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:11:34,147 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:11:34,147 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:11:34,147 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:11:34,177 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:11:34,177 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:15:22,398 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:15:22,399 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:15:22,399 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:15:22,399 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:15:22,400 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:15:22,401 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fc889e1edf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fc889e1edf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:15:24,145 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:15:25,220 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:15:25,260 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:15:25,260 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:15:25,261 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:15:25,287 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:15:25,288 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:17:29,251 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:17:29,252 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:17:29,252 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:17:29,253 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:17:29,254 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:17:29,254 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fa475c07dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fa475c07dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:17:31,037 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:17:32,098 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:17:32,133 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:17:32,133 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:17:32,133 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:17:32,156 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:17:32,156 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:19:17,658 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:19:17,659 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:19:17,659 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:19:17,660 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:19:17,661 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:19:17,662 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f3520f7bd60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f3520f7bd60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:19:19,417 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:19:20,492 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:19:20,527 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:19:20,527 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:19:20,527 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:19:20,555 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:19:20,555 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:25:10,004 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:25:10,005 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:25:10,005 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:25:10,006 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:25:10,008 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:25:10,009 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fd41ef4cdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fd41ef4cdf0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:25:13,843 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:25:14,926 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:25:14,956 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:25:14,957 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:25:14,957 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:25:14,980 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:25:14,980 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:25:17,694 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:25:17,695 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:25:17,695 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:25:17,695 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:25:17,697 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:25:17,698 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7ff1151ebdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7ff1151ebdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:25:18,745 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:25:19,800 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:25:19,833 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:25:19,834 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:25:19,834 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:25:19,868 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:25:19,868 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:31:31,962 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:31:31,962 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:31:31,963 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:31:31,963 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:31:31,965 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:31:31,966 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f97dfb7fd60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f97dfb7fd60>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:31:33,435 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:31:34,541 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:31:34,577 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:31:34,577 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:31:34,577 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:31:34,603 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:31:34,604 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:38:27,659 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:38:29,341 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:38:30,435 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:38:30,471 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:38:30,471 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:38:30,471 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:38:30,503 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:38:30,503 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:39:56,800 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:39:56,823 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:39:56,834 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:39:56,839 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:39:56,936 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:39:56,946 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fcc62a22dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fcc62a22dc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:40:03,352 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:40:04,995 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:40:06,072 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:40:06,113 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:40:06,113 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:40:06,113 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:40:06,144 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:40:06,144 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 15:43:10,846 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:43:10,846 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:43:10,847 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 15:43:10,847 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 15:43:10,849 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 15:43:10,849 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7ffba7da5d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7ffba7da5d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 15:43:12,434 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 15:43:13,518 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:43:13,557 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 15:43:13,557 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 15:43:13,557 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 15:43:13,586 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 15:43:13,586 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 16:07:29,442 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 16:07:29,443 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 16:07:29,443 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 16:07:29,444 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 16:07:29,446 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 16:07:29,446 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f7322514df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f7322514df0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 16:07:31,738 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 16:07:32,804 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 16:07:32,842 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 16:07:32,842 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 16:07:32,843 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 16:07:32,868 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 16:07:32,868 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 16:07:34,580 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 16:07:34,580 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 16:07:34,582 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 16:07:34,582 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 16:07:34,583 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 16:07:34,584 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7faf44972d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7faf44972d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 18:11:13,835 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 18:11:15,648 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 18:11:16,892 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 18:11:16,953 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 18:11:16,954 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 18:11:16,954 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 18:11:16,979 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 18:11:16,980 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 18:12:31,307 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 18:12:31,308 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 18:12:31,308 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 18:12:31,308 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 18:12:31,309 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 18:12:31,310 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7fce8c46cdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7fce8c46cdc0>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 18:12:32,360 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 18:12:33,527 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 18:12:33,564 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 18:12:33,565 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 18:12:33,565 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 18:12:33,591 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 18:12:33,591 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-02 18:12:53,377 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 18:12:53,377 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 18:12:53,377 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-02 18:12:53,378 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-02 18:12:53,379 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-02 18:12:53,379 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f3d1b0b5d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f3d1b0b5d90>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
+2023-06-02 18:12:54,448 - [ MainThread:get_settings:68 ] - INFO - Loading config settings from the environment...
+2023-06-02 18:12:55,524 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 18:12:55,553 - [ MainThread:start:171 ] - INFO - Scheduler started
+2023-06-02 18:12:55,553 - [ MainThread:start_scheduler:54 ] - INFO - Created Schedule Object
+2023-06-02 18:12:55,553 - [ MainThread:start_app:17 ] - INFO - Starting up...
+2023-06-02 18:12:55,581 - [ MainThread:start_scheduler:56 ] - ERROR - Scheduler is already running
+2023-06-02 18:12:55,581 - [ MainThread:start_scheduler:57 ] - ERROR - Unable to Create Schedule Object
+2023-06-03 11:35:10,947 - [ MainThread:_finalize_fairy:785 ] - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/sqlalchemy/pool/base.py", line 757, in _finalize_fairy
+    fairy._reset(pool, transaction_was_reset)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/sqlalchemy/pool/base.py", line 1016, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/mysql/connector/connection_cext.py", line 493, in rollback
+    self._cmysql.rollback()
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query
+2023-06-03 11:40:47,881 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-03 11:40:47,882 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-03 11:40:47,882 - [ MainThread:stop_app:31 ] - INFO - Shutting down...
+2023-06-03 11:40:47,882 - [ MainThread:shutdown_scheduler:68 ] - INFO - Disabled Schedule
+2023-06-03 11:40:47,884 - [ MainThread:shutdown:202 ] - INFO - Scheduler has been shut down
+2023-06-03 11:40:47,884 - [ MainThread:default_exception_handler:1738 ] - ERROR - Exception in callback AsyncIOScheduler.shutdown(<apscheduler....x7f6ac76fbe20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39
+handle: <Handle AsyncIOScheduler.shutdown(<apscheduler....x7f6ac76fbe20>)() at /home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py:39>
+Traceback (most recent call last):
+  File "/usr/local/python3.9.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/asyncio.py", line 41, in shutdown
+    super(AsyncIOScheduler, self).shutdown(wait)
+  File "/home/wang/git-pear-admin-flask/my-fastapi-test/fastapi-env/lib/python3.9/site-packages/apscheduler/schedulers/base.py", line 189, in shutdown
+    raise SchedulerNotRunningError
+apscheduler.schedulers.SchedulerNotRunningError: Scheduler is not running
